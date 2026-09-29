@@ -1,6 +1,6 @@
 from manim import *
 from manim_voiceover import VoiceoverScene
-from manim_voiceover.services.gtts import GTTSService
+from manimations import EdgeTTSService
 import numpy as np
 
 # 9:16 Vertical Aspect Ratio configuration (Shorts / Reels / Mobile)
@@ -34,8 +34,9 @@ def create_spring(start_point, end_point, num_coils=9, width=0.28):
 
 class SimpleHarmonicMotionScene(VoiceoverScene):
     def construct(self):
-        # 1. Setup Speech Service
-        self.set_speech_service(GTTSService(lang="en"))
+        # 1. Setup Studio Neural Speech Service (Free Azure Neural voice via edge-tts)
+        # Perfect for Instagram Reels & educational content:
+        self.set_speech_service(EdgeTTSService(voice="en-US-AndrewMultilingualNeural"))
         
         # 2. Header Section (Top of 9:16 Frame)
         title = Text("Simple Harmonic Motion", font_size=38, weight=BOLD, color=BLUE_B).to_edge(UP, buff=1.0)

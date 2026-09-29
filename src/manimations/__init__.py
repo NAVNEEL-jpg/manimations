@@ -1,2 +1,3 @@
-def main() -> None:
-    print("Hello from manimations!")
+from manimations.edge_service import EdgeTTSService
+
+__all__ = ["EdgeTTSService"]
