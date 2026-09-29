@@ -1,0 +1,24 @@
+1
+00:00:00,000 --> 00:00:04,454
+Simple Harmonic Motion occurs when a restoring force pulls an
+
+2
+00:00:04,554 --> 00:00:09,980
+object back toward equilibrium, directly proportional to its displacement.
+
+3
+00:00:10,066 --> 00:00:13,771
+When released from amplitude A, the mass oscillates
+
+4
+00:00:13,871 --> 00:00:17,502
+back and forth perpetually under ideal conditions.
+
+5
+00:00:20,016 --> 00:00:23,980
+The displacement over time traces a smooth cosine
+
+6
+00:00:24,080 --> 00:00:27,380
+wave, repeating its cycle every period T.
+
