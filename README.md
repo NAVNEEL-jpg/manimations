@@ -56,12 +56,26 @@ Here are real examples you can directly paste into the Antigravity chat:
 
 ---
 
-## 🎙️ How Voiceover Works
+## 🎙️ Neural Voiceover Engine (Instagram & Reels Ready)
 
-This project includes **[manim-voiceover](https://github.com/ManimCommunity/manim-voiceover)** pre-configured:
-- **Zero Configuration Needed:** It uses Google TTS by default—completely free with natural-sounding speech.
-- **Offline Mode:** If you do not have an active internet connection, Antigravity will automatically use your computer's built-in Windows voice engine (`pyttsx3`).
-- **Synchronized Timing:** The visual animations are automatically timed to match the duration of the spoken sentences.
+This studio includes **Microsoft Azure Neural Voices** powered by `EdgeTTSService`:
+- **Studio Quality:** Zero robotic tone—sounds like a real human educator or content creator.
+- **100% Free:** No API keys, no subscriptions, unlimited voice generations.
+- **Ranked Voice Directory:** Browse **[`VOICES.md`](VOICES.md)** for a complete ranked list of voices (with descriptions of each tone, accent, and style).
+
+To change the voice, simply specify the voice name:
+```python
+from manimations import EdgeTTSService
+
+# Andrew (Warm & Confident - #1 for Math/Physics):
+self.set_speech_service(EdgeTTSService(voice="en-US-AndrewMultilingualNeural"))
+
+# Brian (Casual & Punchy - #1 for Viral Reels):
+self.set_speech_service(EdgeTTSService(voice="en-US-BrianMultilingualNeural", rate="+10%"))
+
+# Prabhat (Calm Indian English Professor):
+self.set_speech_service(EdgeTTSService(voice="en-IN-PrabhatNeural"))
+```
 
 ---
 
