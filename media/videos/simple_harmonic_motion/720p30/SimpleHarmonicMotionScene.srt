@@ -1,0 +1,24 @@
+1
+00:00:00,000 --> 00:00:04,050
+Simple Harmonic Motion occurs when the restoring force is
+
+2
+00:00:04,150 --> 00:00:08,420
+directly proportional to displacement, known as Hooke's Law.
+
+3
+00:00:08,500 --> 00:00:11,735
+When released from a displacement A, the mass
+
+4
+00:00:11,835 --> 00:00:15,960
+oscillates back and forth about its equilibrium position.
+
+5
+00:00:18,566 --> 00:00:23,572
+Notice how the displacement over time traces a pure sinusoidal
+
+6
+00:00:23,672 --> 00:00:28,018
+cosine wave, completing one full cycle every period T.
+

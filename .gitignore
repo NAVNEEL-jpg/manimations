@@ -8,15 +8,12 @@ __pycache__/
 *.py[cod]
 *$py.class
 
-# Manim renders and media output
-media/
+# Intermediate Manim cache and partial frames
+media/Tex/
+media/texts/
+media/voiceovers/
+**/partial_movie_files/
 .voiceover_cache/
-
-# Video and image outputs
-*.mp4
-*.mov
-*.avi
-*.gif
 
 # OS files
 .DS_Store
